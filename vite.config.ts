@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [preact()],
-    base: isProd ? '/tasktracker/' : '/tasktracker/',
+    base: isProd ? '/simple-task-tracker-with-two-roles/' : '/simple-task-tracker-with-two-roles/',
     server: {
       host: "0.0.0.0",
       port: 5175,
